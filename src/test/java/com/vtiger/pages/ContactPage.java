@@ -34,6 +34,7 @@ public class ContactPage extends PageActions {
 
     public void createNewAccount(String txt,String lname,String fname)
     {
+        System.out.println("i am Rushi");
         selectSalutaion(txt);
         setLastName(lname);
         setFirstName(fname);
