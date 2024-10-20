@@ -55,6 +55,9 @@ public class Basedefinition  {
     }
 
     public void launchApp() {
+
+        System.out.println(System.getProperty("browser"));
+        System.out.println(System.getProperty("Env"));
         if (prop.getProperty("browser").equals("chrome")) {
             driver = new ChromeDriver();
         }
